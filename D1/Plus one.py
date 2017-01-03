@@ -21,4 +21,3 @@ class Solution(object):
         new_list.reverse()
         return new_list
 
-            
