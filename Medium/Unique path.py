@@ -5,7 +5,6 @@ class Solution(object):
         :type n: int
         :rtype: int
         """
-        import numpy as np
         res = [[1]*n]*m # initialize --
         for i in range(1,m):
             for j in range(1,n):
