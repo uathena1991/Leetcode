@@ -2,13 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="462fd092-9fbd-454d-9563-61b70647aa0e" name="Default" comment="">
+<<<<<<< Updated upstream
 <<<<<<< HEAD
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Medium/Triangle.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
 =======
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Interview coding problems/gray number.py" />
 >>>>>>> origin/master
+=======
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Interview coding problems/gray number_two numbers.py" />
+>>>>>>> Stashed changes
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Interview coding problems/gray number.py" afterPath="$PROJECT_DIR$/Interview coding problems/gray number.py" />
     </list>
     <ignored path="Leetcode.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,6 +32,7 @@
     <favorites_list name="Leetcode" />
   </component>
   <component name="FileEditorManager">
+<<<<<<< Updated upstream
 <<<<<<< HEAD
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
 =======
@@ -53,6 +59,9 @@
       </file>
     </leaf>
 >>>>>>> origin/master
+=======
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+>>>>>>> Stashed changes
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -67,6 +76,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+<<<<<<< Updated upstream
 <<<<<<< HEAD
         <option value="$PROJECT_DIR$/D2/Unique Binary Search Trees.py" />
         <option value="$PROJECT_DIR$/Medium/Unique Binary Search Trees.py" />
@@ -75,6 +85,8 @@
 =======
 >>>>>>> origin/master
         <option value="$PROJECT_DIR$/Medium/Binary tree inorder traversal.py" />
+=======
+>>>>>>> Stashed changes
         <option value="$PROJECT_DIR$/Hard/Binary tree postorder traversal.py" />
         <option value="$PROJECT_DIR$/Easy/Merge Sorted Array.py" />
         <option value="$PROJECT_DIR$/Medium/Unique path.py" />
@@ -128,6 +140,7 @@
         <option value="$PROJECT_DIR$/tmp.py" />
         <option value="$PROJECT_DIR$/Medium/Reverse linked list II.py" />
         <option value="$PROJECT_DIR$/Interview coding problems/gray code.py" />
+        <option value="$PROJECT_DIR$/Interview coding problems/gray number_two numbers.py" />
         <option value="$PROJECT_DIR$/Interview coding problems/gray number.py" />
 >>>>>>> origin/master
       </list>
@@ -229,33 +242,45 @@
     <configuration default="false" name="Insertion Sort List" type="PythonConfigurationType" factoryName="Python" temporary="true">
 =======
   <component name="RunManager" selected="Python.gray number">
+<<<<<<< Updated upstream
     <configuration default="false" name="Subset" type="PythonConfigurationType" factoryName="Python" temporary="true">
 >>>>>>> origin/master
+=======
+    <configuration default="false" name="Subset II" type="PythonConfigurationType" factoryName="Python" temporary="true">
+>>>>>>> Stashed changes
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="$USER_HOME$/miniconda2/bin/python" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Medium" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Leetcode" />
+<<<<<<< Updated upstream
 <<<<<<< HEAD
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Medium/Insertion Sort List.py" />
 =======
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Medium/Subset.py" />
 >>>>>>> origin/master
+=======
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Medium/Subset II.py" />
+>>>>>>> Stashed changes
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
+<<<<<<< Updated upstream
 <<<<<<< HEAD
     <configuration default="false" name="Subset" type="PythonConfigurationType" factoryName="Python" temporary="true">
 =======
     <configuration default="false" name="Subset II" type="PythonConfigurationType" factoryName="Python" temporary="true">
 >>>>>>> origin/master
+=======
+    <configuration default="false" name="Reverse linked list II" type="PythonConfigurationType" factoryName="Python" temporary="true">
+>>>>>>> Stashed changes
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -276,42 +301,25 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Leetcode" />
+<<<<<<< Updated upstream
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Medium/Subset II.py" />
 >>>>>>> origin/master
+=======
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Medium/Reverse linked list II.py" />
+>>>>>>> Stashed changes
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
+<<<<<<< Updated upstream
 <<<<<<< HEAD
     <configuration default="false" name="Subset II" type="PythonConfigurationType" factoryName="Python" temporary="true">
 =======
     <configuration default="false" name="Reverse linked list II" type="PythonConfigurationType" factoryName="Python" temporary="true">
 >>>>>>> origin/master
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="$USER_HOME$/miniconda2/bin/python" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Medium" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Leetcode" />
-<<<<<<< HEAD
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Medium/Subset II.py" />
-=======
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Medium/Reverse linked list II.py" />
->>>>>>> origin/master
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-<<<<<<< HEAD
-    <configuration default="false" name="Combinations" type="PythonConfigurationType" factoryName="Python" temporary="true">
 =======
     <configuration default="false" name="leetcode_tool_lib" type="PythonConfigurationType" factoryName="Python" temporary="true">
->>>>>>> origin/master
+>>>>>>> Stashed changes
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -323,20 +331,28 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Leetcode" />
+<<<<<<< Updated upstream
 <<<<<<< HEAD
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Medium/Combinations.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Medium/Subset II.py" />
+=======
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Medium/Reverse linked list II.py" />
+>>>>>>> origin/master
 =======
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetcode_tool_lib.py" />
->>>>>>> origin/master
+>>>>>>> Stashed changes
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
+<<<<<<< Updated upstream
 <<<<<<< HEAD
-    <configuration default="false" name="Triangle" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="Combinations" type="PythonConfigurationType" factoryName="Python" temporary="true">
+=======
+    <configuration default="false" name="leetcode_tool_lib" type="PythonConfigurationType" factoryName="Python" temporary="true">
+>>>>>>> origin/master
 =======
     <configuration default="false" name="gray number" type="PythonConfigurationType" factoryName="Python" temporary="true">
->>>>>>> origin/master
+>>>>>>> Stashed changes
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -348,11 +364,48 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Leetcode" />
+<<<<<<< Updated upstream
+<<<<<<< HEAD
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Medium/Combinations.py" />
+=======
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetcode_tool_lib.py" />
+>>>>>>> origin/master
+=======
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Interview coding problems/gray number.py" />
+>>>>>>> Stashed changes
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+<<<<<<< Updated upstream
+<<<<<<< HEAD
+    <configuration default="false" name="Triangle" type="PythonConfigurationType" factoryName="Python" temporary="true">
+=======
+    <configuration default="false" name="gray number" type="PythonConfigurationType" factoryName="Python" temporary="true">
+>>>>>>> origin/master
+=======
+    <configuration default="false" name="gray number_two numbers" type="PythonConfigurationType" factoryName="Python" temporary="true">
+>>>>>>> Stashed changes
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Interview coding problems" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Leetcode" />
+<<<<<<< Updated upstream
 <<<<<<< HEAD
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Medium/Triangle.py" />
 =======
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Interview coding problems/gray number.py" />
 >>>>>>> origin/master
+=======
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Interview coding problems/gray number_two numbers.py" />
+>>>>>>> Stashed changes
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -523,6 +576,7 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Python.anaconda" />
+<<<<<<< Updated upstream
 <<<<<<< HEAD
       <item index="1" class="java.lang.String" itemvalue="Python.Insertion Sort List" />
       <item index="2" class="java.lang.String" itemvalue="Python.Subset" />
@@ -543,15 +597,29 @@
       <item index="3" class="java.lang.String" itemvalue="Python.Reverse linked list II" />
       <item index="4" class="java.lang.String" itemvalue="Python.leetcode_tool_lib" />
       <item index="5" class="java.lang.String" itemvalue="Python.gray number" />
+=======
+      <item index="1" class="java.lang.String" itemvalue="Python.Subset II" />
+      <item index="2" class="java.lang.String" itemvalue="Python.Reverse linked list II" />
+      <item index="3" class="java.lang.String" itemvalue="Python.leetcode_tool_lib" />
+      <item index="4" class="java.lang.String" itemvalue="Python.gray number" />
+      <item index="5" class="java.lang.String" itemvalue="Python.gray number_two numbers" />
+>>>>>>> Stashed changes
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Python.gray number" />
+<<<<<<< Updated upstream
         <item index="1" class="java.lang.String" itemvalue="Python.Reverse linked list II" />
         <item index="2" class="java.lang.String" itemvalue="Python.leetcode_tool_lib" />
         <item index="3" class="java.lang.String" itemvalue="Python.Subset II" />
         <item index="4" class="java.lang.String" itemvalue="Python.Subset" />
 >>>>>>> origin/master
+=======
+        <item index="1" class="java.lang.String" itemvalue="Python.gray number_two numbers" />
+        <item index="2" class="java.lang.String" itemvalue="Python.Reverse linked list II" />
+        <item index="3" class="java.lang.String" itemvalue="Python.leetcode_tool_lib" />
+        <item index="4" class="java.lang.String" itemvalue="Python.Subset II" />
+>>>>>>> Stashed changes
       </list>
     </recent_temporary>
   </component>
@@ -571,12 +639,12 @@
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32829046" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
 =======
     <frame x="0" y="23" width="2002" height="1129" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13932358" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32829046" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3277394" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32971373" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3277394" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32971373" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43336624" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
 >>>>>>> origin/master
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -641,6 +709,7 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< Updated upstream
 <<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/Medium/Binary tree inorder traversal.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -672,6 +741,8 @@
         </state>
       </provider>
     </entry>
+=======
+>>>>>>> Stashed changes
     <entry file="file://$PROJECT_DIR$/Medium/Binary Tree Preorder Traversal_iterative.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
@@ -1036,11 +1107,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Interview coding problems/gray number_two numbers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Interview coding problems/gray number.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
+<<<<<<< Updated upstream
           <caret line="10" column="13" lean-forward="true" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
 >>>>>>> origin/master
+=======
+          <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+>>>>>>> Stashed changes
           <folding />
         </state>
       </provider>
