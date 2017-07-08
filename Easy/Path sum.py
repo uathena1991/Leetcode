@@ -4,7 +4,16 @@
 #         self.val = x
 #         self.left = None
 #         self.right = None
+"""
+test case
+[5,4,8,11,13,4,7,2,null,null,null,null,1]
+22
 
+[1,2]
+1
+
+
+"""
 class Solution(object):
     def hasPathSum(self, root, sum):
         """
@@ -14,11 +23,6 @@ class Solution(object):
         """
         if not root:
             return False
-        if not root.left and not root.right:
-            if root.val == sum:
-                return True
-            else:
-                return False
-        lsum = self.hasPathSum(root.left,sum - root.val)
-        rsum = self.hasPathSum(root.right,sum - root.val)
-        return lsum or rsum
+        if not root.left and not root.right and root.val == sum:
+            return True
+        return self.hasPathSum(root.left, sum - root.val) or self.hasPathSum(root.right, sum - root.val)
