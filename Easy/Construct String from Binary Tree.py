@@ -10,16 +10,12 @@ class Solution(object):
         :type t: TreeNode
         :rtype: str
         """
-        self.str = ''
         if not t:
             return ""
         if not t.left and not t.right:
-            self.str += "(" + str(t.val) + ")"
-            return self.str
+            return str(t.val)
         if t.right:
-            self.str += str(t.val) + "(" + self.tree2str(t.left) + ")(" + self.tree2str(t.right) + ")"
-            return self.str
+            return str(t.val) + "(" + self.tree2str(t.left) + ")(" + self.tree2str(t.right) + ")"
         else:
-            self.str += str(t.val) + "(" + self.tree2str(t.left) + ")"
-            return self.str
+            return str(t.val) + "(" + self.tree2str(t.left) + ")"
 
