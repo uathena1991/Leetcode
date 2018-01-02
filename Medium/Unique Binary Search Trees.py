@@ -5,11 +5,11 @@ class Solution(object):
         :rtype: int
         """
         res = [1] ## f(0) == 1
-        if n<=2:
+        if n <= 2:
             return n
         for k in range(1,n+1):
             tmp = 0
-            for j in range(0,k):
+            for j in range(k):
                 tmp+=res[j]*res[k-1-j]
             res.append(tmp)
 
