@@ -1,0 +1,13 @@
+class Solution(object):
+    def firstUniqChar(self, s):
+        """
+        :type s: str
+        :rtype: int
+        """
+        alphabet = 'abcdefghijklmnopqrstuvwxyz'
+        indexes = [s.index(c) for c in alphabet if s.count(c) == 1]
+        print indexes
+        return min(indexes) if indexes else -1
+
+a = Solution()
+print a.firstUniqChar('lletrter')
