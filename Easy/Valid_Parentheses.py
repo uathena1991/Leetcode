@@ -20,3 +20,34 @@ class Solution(object):
             return False
         else:
             return True
+
+
+
+
+# stack
+class Solution(object):
+    def isValid(self, s):
+        """
+        :type s: str
+        :rtype: bool
+        """
+        if len(s)%2 != 0:
+            return False
+        stack = []
+        for c in s:
+            if c in ['(', '[', '{']:
+                stack.append(c)
+            elif c in [')',']','}']:
+                if stack:
+                    curr = stack.pop()
+                else:
+                    return False
+                if (curr + c) not in ['[]', '{}', '()']:
+                    return False
+            else:
+                return False
+
+        if not stack:
+            return True
+        else:
+            return False
