@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91c5fac6-a99a-4b69-aa05-991756cc44dc" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/Medium/Valid Sudoku.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Easy/Maximum subarray.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,20 +17,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Bridge knowedge gap.ipynb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Bridge knowedge gap.ipynb">
-          <provider selected="true" editor-type-id="ipnb-editor">
-            <state>
-              <selected id="1" />
+      <file leaf-file-name="Pow_x_n.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Medium/Pow_x_n.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="611">
+              <caret line="45" column="25" lean-forward="false" selection-start-line="45" selection-start-column="25" selection-end-line="45" selection-end-column="25" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Valid Sudoku.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Medium/Valid Sudoku.py">
+      <file leaf-file-name="Unique path.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Easy/Unique path.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="17" column="36" lean-forward="true" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
+            <state relative-caret-position="209">
+              <caret line="11" column="28" lean-forward="true" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Missing number.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Easy/Missing number.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="11" column="18" lean-forward="false" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Maximum subarray.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Easy/Maximum subarray.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -86,6 +107,11 @@
         <option value="$PROJECT_DIR$/Medium/Populating Next Right Pointers in Each Node II.py" />
         <option value="$PROJECT_DIR$/Easy/Valid_Parentheses.py" />
         <option value="$PROJECT_DIR$/Medium/Valid Sudoku.py" />
+        <option value="$PROJECT_DIR$/Easy/Reverse linked list.py" />
+        <option value="$PROJECT_DIR$/Medium/Reverse linked list II.py" />
+        <option value="$PROJECT_DIR$/Medium/Pow_x_n.py" />
+        <option value="$PROJECT_DIR$/Easy/Missing number.py" />
+        <option value="$PROJECT_DIR$/Easy/Maximum subarray.py" />
       </list>
     </option>
   </component>
@@ -123,7 +149,20 @@
             <path>
               <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="Medium" type="462c0819:PsiDirectoryNode" />
+              <item name="Easy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="Easy" type="462c0819:PsiDirectoryNode" />
+              <item name="First Unique Character in a String" type="8704e2dd:PyFileNode" />
+            </path>
+            <path>
+              <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="Easy" type="462c0819:PsiDirectoryNode" />
+              <item name="First Unique Character in a String" type="8704e2dd:PyFileNode" />
+              <item name="Solution" type="dd8bbb05:PyElementNode" />
             </path>
           </expand>
           <select />
@@ -148,8 +187,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Valid Sudoku">
-    <configuration name="First Unique Character in a String" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.Missing number">
+    <configuration name="Missing number" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -161,25 +200,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Leetcode" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Easy/First Unique Character in a String" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="Move zeros" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Easy" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Leetcode" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Easy/Move zeros.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Easy/Missing number.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -198,6 +219,24 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Leetcode" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Medium/Populating Next Right Pointers in Each Node II.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="Reverse linked list II" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Medium" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Leetcode" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Medium/Reverse linked list II.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -387,19 +426,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.Move zeros" />
-      <item index="1" class="java.lang.String" itemvalue="Python.First Unique Character in a String" />
-      <item index="2" class="java.lang.String" itemvalue="Python.leetcode_tool_lib" />
-      <item index="3" class="java.lang.String" itemvalue="Python.Populating Next Right Pointers in Each Node II" />
-      <item index="4" class="java.lang.String" itemvalue="Python.Valid Sudoku" />
+      <item index="0" class="java.lang.String" itemvalue="Python.leetcode_tool_lib" />
+      <item index="1" class="java.lang.String" itemvalue="Python.Populating Next Right Pointers in Each Node II" />
+      <item index="2" class="java.lang.String" itemvalue="Python.Valid Sudoku" />
+      <item index="3" class="java.lang.String" itemvalue="Python.Reverse linked list II" />
+      <item index="4" class="java.lang.String" itemvalue="Python.Missing number" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.Valid Sudoku" />
-        <item index="1" class="java.lang.String" itemvalue="Python.Populating Next Right Pointers in Each Node II" />
-        <item index="2" class="java.lang.String" itemvalue="Python.leetcode_tool_lib" />
-        <item index="3" class="java.lang.String" itemvalue="Python.First Unique Character in a String" />
-        <item index="4" class="java.lang.String" itemvalue="Python.Move zeros" />
+        <item index="0" class="java.lang.String" itemvalue="Python.Missing number" />
+        <item index="1" class="java.lang.String" itemvalue="Python.Reverse linked list II" />
+        <item index="2" class="java.lang.String" itemvalue="Python.Valid Sudoku" />
+        <item index="3" class="java.lang.String" itemvalue="Python.Populating Next Right Pointers in Each Node II" />
+        <item index="4" class="java.lang.String" itemvalue="Python.leetcode_tool_lib" />
       </list>
     </recent_temporary>
   </component>
@@ -668,16 +707,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode_tool_lib.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="82" column="0" lean-forward="true" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
-          <folding>
-            <element signature="e#78#88#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Medium/Populating Next Right Pointers in Each Node.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="534">
@@ -702,10 +731,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Bridge knowedge gap.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="1" />
+    <entry file="file://$PROJECT_DIR$/Easy/Reverse linked list.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="11" lean-forward="true" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Medium/Reverse linked list II.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="470">
+          <caret line="72" column="48" lean-forward="true" selection-start-line="72" selection-start-column="48" selection-end-line="72" selection-end-column="48" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -713,6 +751,55 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="17" column="36" lean-forward="true" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode_tool_lib.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1558">
+          <caret line="82" column="0" lean-forward="true" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
+          <folding>
+            <element signature="e#78#88#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bridge knowedge gap.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Medium/Pow_x_n.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="611">
+          <caret line="45" column="25" lean-forward="false" selection-start-line="45" selection-start-column="25" selection-end-line="45" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Easy/Unique path.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="28" lean-forward="true" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Easy/Missing number.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="18" lean-forward="false" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Easy/Maximum subarray.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
