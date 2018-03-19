@@ -4,6 +4,8 @@
 #         self.val = x
 #         self.next = None
 
+
+# iterative
 class Solution(object):
     def reverseList(self, head):
         """
@@ -18,3 +20,22 @@ class Solution(object):
             pre = curr
             curr = tmp
         return pre
+
+
+# recursive
+
+class Solution(object):
+    def reverseList(self, head):
+        """
+        :type head: ListNode
+        :rtype: ListNode
+        """
+        # recursion
+        return self.reverse(head)
+
+    def reverse(self, node, prev = None):
+        if not node:
+            return prev
+        nex = node.next
+        node.next = prev
+        return self.reverse(nex, node)
