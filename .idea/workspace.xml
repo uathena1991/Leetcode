@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91c5fac6-a99a-4b69-aa05-991756cc44dc" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/Easy/Valid_Parentheses.py" afterPath="$PROJECT_DIR$/Easy/Valid_Parentheses.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Medium/Valid Sudoku.py" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,11 +17,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Bridge knowedge gap.ipynb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Bridge knowedge gap.ipynb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Bridge knowedge gap.ipynb">
           <provider selected="true" editor-type-id="ipnb-editor">
             <state>
               <selected id="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Valid Sudoku.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Medium/Valid Sudoku.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="17" column="36" lean-forward="true" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -74,6 +85,7 @@
         <option value="$PROJECT_DIR$/Medium/Populating Next Right Pointers in Each Node.py" />
         <option value="$PROJECT_DIR$/Medium/Populating Next Right Pointers in Each Node II.py" />
         <option value="$PROJECT_DIR$/Easy/Valid_Parentheses.py" />
+        <option value="$PROJECT_DIR$/Medium/Valid Sudoku.py" />
       </list>
     </option>
   </component>
@@ -111,7 +123,7 @@
             <path>
               <item name="Leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="Leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="Easy" type="462c0819:PsiDirectoryNode" />
+              <item name="Medium" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -136,7 +148,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Populating Next Right Pointers in Each Node II">
+  <component name="RunManager" selected="Python.Valid Sudoku">
     <configuration name="First Unique Character in a String" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -191,19 +203,19 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="Sum of Two Integers" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Valid Sudoku" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Easy" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Medium" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Leetcode" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Easy/Sum of Two Integers.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Medium/Valid Sudoku.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -375,19 +387,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.Sum of Two Integers" />
-      <item index="1" class="java.lang.String" itemvalue="Python.Move zeros" />
-      <item index="2" class="java.lang.String" itemvalue="Python.First Unique Character in a String" />
-      <item index="3" class="java.lang.String" itemvalue="Python.leetcode_tool_lib" />
-      <item index="4" class="java.lang.String" itemvalue="Python.Populating Next Right Pointers in Each Node II" />
+      <item index="0" class="java.lang.String" itemvalue="Python.Move zeros" />
+      <item index="1" class="java.lang.String" itemvalue="Python.First Unique Character in a String" />
+      <item index="2" class="java.lang.String" itemvalue="Python.leetcode_tool_lib" />
+      <item index="3" class="java.lang.String" itemvalue="Python.Populating Next Right Pointers in Each Node II" />
+      <item index="4" class="java.lang.String" itemvalue="Python.Valid Sudoku" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.Populating Next Right Pointers in Each Node II" />
-        <item index="1" class="java.lang.String" itemvalue="Python.leetcode_tool_lib" />
-        <item index="2" class="java.lang.String" itemvalue="Python.First Unique Character in a String" />
-        <item index="3" class="java.lang.String" itemvalue="Python.Move zeros" />
-        <item index="4" class="java.lang.String" itemvalue="Python.Sum of Two Integers" />
+        <item index="0" class="java.lang.String" itemvalue="Python.Valid Sudoku" />
+        <item index="1" class="java.lang.String" itemvalue="Python.Populating Next Right Pointers in Each Node II" />
+        <item index="2" class="java.lang.String" itemvalue="Python.leetcode_tool_lib" />
+        <item index="3" class="java.lang.String" itemvalue="Python.First Unique Character in a String" />
+        <item index="4" class="java.lang.String" itemvalue="Python.Move zeros" />
       </list>
     </recent_temporary>
   </component>
@@ -694,6 +706,14 @@
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
           <selected id="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Medium/Valid Sudoku.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="36" lean-forward="true" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
+          <folding />
         </state>
       </provider>
     </entry>
