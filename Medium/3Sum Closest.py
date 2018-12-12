@@ -27,4 +27,4 @@ class Solution(object):
 
 
 a = Solution()
-print a.threeSumClosest([0,1,2],0)
+print(a.threeSumClosest([0,1,2],0))
