@@ -24,6 +24,31 @@ class Solution(object):
             res = max(res, tmp1, tmp2, key = len)
         return  res
 
+ def longestPalindrome_dp(self, s):
+        """
+        :type s: str
+        :rtype: str
+        """
+        if len(s) <= 1:
+            return s
+
+
+        dp = [[0 for _ in s] for _ in s]
+        for i in range(len(s)):
+            dp[i][i] = 1
+
+        res = ''
+        for i in range(len(s)-1, -1, -1):
+            for j in range(i, len(s)):
+                if (j - i < 2 or dp[i+1][j-1] == 1) and s[j] == s[i]:
+                    dp[i][j] = 1
+                    if j - i + 1 > len(res):
+                        res = s[i:j+1]
+                else:
+                    continue
+        return res
+
+
 
 a = Solution()
 s = 'aaabbbccccdfdf'

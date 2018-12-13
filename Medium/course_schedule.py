@@ -27,3 +27,34 @@ class Solution(object):
                 return False
         return True
 
+
+
+"""
+Topological sorting
+"""
+class Solution(object):
+    def canFinish(self, numCourses, prerequisites):
+        """
+        :type numCourses: int
+        :type prerequisites: List[List[int]]
+        :rtype: bool
+        """
+        from collections import defaultdict
+        graphs = defaultdict(list)
+        in_degree = defaultdict(int)
+        for pr in prerequisites:
+            graphs[pr[0]].append(pr[1])
+            in_degree[pr[1]] += 1
+        queue = [x for x in range(numCourses) if in_degree[x]==0]
+        curr = []
+        while queue:
+            curr.append(queue.pop(0))
+            for child in graphs[curr[-1]]:
+                in_degree[child] -= 1
+                if in_degree[child] == 0:
+                    queue.append(child)
+        print(curr)
+        return len(curr) == numCourses
+
+
+

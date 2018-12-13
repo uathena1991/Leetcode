@@ -15,6 +15,29 @@ class Solution(object):
         else:
             return False
 
+class Solution(object):
+    def isPalindrome(self, x):
+        """
+        :type x: int
+        :rtype: bool
+        """
+        if 0 <= x < 10:
+            return True
+        if x < 0 or x % 10 == 0:
+            return False
+        new_num = 0
+        curr = x
+        while curr > 0:
+            new_num =  new_num*10 + curr%10
+            curr //= 10
+            if new_num == curr or new_num == curr // 10:
+                return True
+            if new_num > curr*10:
+                break
+        return False
+
 
 a = Solution()
-print a.isPalindrome(12321)
+print(a.isPalindrome(12321))
+
+

@@ -42,19 +42,32 @@ class Solution(object):
             return False
         else:
             return True
+<<<<<<< HEAD
 # Definition for a binary tree node.
 # class TreeNode:
+=======
+
+
+
+# Definition for a binary tree node.
+# class TreeNode(object):
+>>>>>>> 42ec126072ae10342005bc62db4fb07b4dffc838
 #     def __init__(self, x):
 #         self.val = x
 #         self.left = None
 #         self.right = None
 
+<<<<<<< HEAD
 class Solution:
+=======
+class Solution(object):
+>>>>>>> 42ec126072ae10342005bc62db4fb07b4dffc838
     def isBalanced(self, root):
         """
         :type root: TreeNode
         :rtype: bool
         """
+<<<<<<< HEAD
         def depth(root):
             if not root:
                 return 0
@@ -64,3 +77,17 @@ class Solution:
                 return -1
             return 1 + max(left, right)
         return depth(root) != -1
+=======
+        def helper(node):
+            if not node:
+                return 0
+            left = helper(node.left)
+            right = helper(node.right)
+            if left == -1 or right == -1 or abs(left - right) > 1:
+                return -1
+            return 1 + max(left, right)
+
+        if not root:
+            return True
+        return helper(root) >= 0
+>>>>>>> 42ec126072ae10342005bc62db4fb07b4dffc838
