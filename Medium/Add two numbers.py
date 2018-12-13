@@ -45,3 +45,34 @@ class Solution(object):
 
         return l1
 
+
+
+# Definition for singly-linked list.
+# class ListNode:
+#     def __init__(self, x):
+#         self.val = x
+#         self.next = None
+
+class Solution:
+    def addTwoNumbers(self, l1, l2):
+        """
+        :type l1: ListNode
+        :type l2: ListNode
+        :rtype: ListNode
+        """
+        carry = 0
+        n1, n2 = l1, l2
+        while n1 and n2:
+            if not n1.next and n2.next:
+                n1.next = ListNode(0)
+                n1.next.next = None
+            if not n2.next and n1.next:
+                n2.next = ListNode(0)
+                n2.next.next = None
+            n1.val, carry = (n1.val + n2.val + carry)%10, int((n1.val + n2.val + carry)/10)
+            if not(n1.next) and not(n2.next) and carry == 1:
+                n1.next = ListNode(1)
+                n1.next.next = None
+            n1, n2 = n1.next, n2.next
+        return l1
+

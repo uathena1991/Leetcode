@@ -68,7 +68,7 @@ class Solution(object):
             return False if A[0] != A[1] else True
 
         mean_A = float(sum(A))/len(A)
-        A = sorted(A, reverse=True)
+        A = sorted(A, reverse = True)
         print A
         B = [A[0]]
         C = [A[1]]
