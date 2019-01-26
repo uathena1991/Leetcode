@@ -1,0 +1,42 @@
+class Solution(object):
+    def reverseVowels(self, s):
+        """
+        :type s: str
+        :rtype: str
+        """
+        if len(s) <= 1:
+            return s
+        vowels = {'a', 'e', 'i', 'o' ,'u', "A", "E", "I", "O", "U"}
+        l = list(s)
+        pairs = [(idx, vs) for idx, vs in enumerate(l) if vs in vowels]
+        # print(pairs)
+        max_len = len(pairs)
+        for i in range(max_len):
+            l[pairs[i][0]] = pairs[max_len - i - 1][1]
+        return ''.join(l)
+
+
+class Solution(object):
+    def reverseVowels(self, s):
+        """
+        :type s: str
+        :rtype: str
+        """
+        if len(s) <= 1:
+            return s
+        vowels = {'a', 'e', 'i', 'o' ,'u', "A", "E", "I", "O", "U"}
+        ls = list(s)
+        l, r = 0, len(s) - 1
+        while l < r:
+            if ls[l] in vowels and ls[r] in vowels:
+                # s = s[:l] + s[r] + s[l+1:r] + s[l] + s[r+1:]
+                ls[l], ls[r] = ls[r], ls[l]
+                l += 1
+                r -= 1
+            elif ls[l] not in vowels:
+                l += 1
+            elif ls[r] not in vowels:
+                r -= 1
+
+
+        return ''.join(ls)

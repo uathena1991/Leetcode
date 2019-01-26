@@ -1,0 +1,10 @@
+class Solution:
+    def judgeCircle(self, moves):
+        """
+        :type moves: str
+        :rtype: bool
+        """
+        from collections import Counter
+        cc = Counter(moves)
+        return cc['U'] == cc['D'] and cc['L'] == cc['R']
+        
