@@ -1,0 +1,53 @@
+"""
+TLE
+"""
+from collections import deque, defaultdict
+class Solution:
+    def maxUncrossedLines(self, A, B) -> int:
+        def helper(li):
+            bmap = defaultdict(deque)
+            for i,n in enumerate(B):
+                bmap[n].append(i)
+            return bmap
+        def recursive(i, j, curr_len):
+            if i >= self.lena or j >= self.lenb:
+                self.res = max(self.res, curr_len)
+                return
+            blist = self.bmap[A[i]]
+            if A[i] in self.bmap and blist:
+                if j <= blist[0]:
+                    tmp = blist.popleft()
+                    # match A[i] and B[j]
+                    recursive(i+1, tmp+1, curr_len + 1)
+                    blist.appendleft(tmp)
+                # does not match, match A[i] with blist[1:]
+                tmp = blist.popleft()
+                recursive(i, j, curr_len)
+                blist.appendleft(tmp)
+                # does not match, macth A[i+1] with B[j]...
+            recursive(i+1, j, curr_len)
+
+        self.res = 0
+        self.lena, self.lenb = len(A), len(B)
+
+        recursive(0, 0, 0)
+        return self.res
+
+"""
+DP
+"""
+class Solution:
+    def maxUncrossedLines(self, A: List[int], B: List[int]) -> int:
+        dp = [[0 for _ in range(len(B) + 1)] for _ in range(len(A) + 1)]
+        for i in range(1, len(A)+1):
+            for j in range(1, len(B)+1):
+                if A[i-1] == B[j-1]:
+                    dp[i][j] = dp[i-1][j-1] + 1
+                else:
+                    dp[i][j] = max(dp[i-1][j], dp[i][j-1])
+
+        return dp[-1][-1]
+
+A = [4,1,2,5,1,5,3,4,1,5]
+B = [3,1,1,3,2,5,2,4,1,3,2,2,5,5,3,5,5,1,2,1]
+print(Solution().maxUncrossedLines(B,A))

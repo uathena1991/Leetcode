@@ -1,0 +1,40 @@
+class Solution:
+    def numberToWords(self, num):
+        """
+        :type num: int
+        :rtype: str
+        """
+        def two_digits_decode(n):
+            if n < 20:
+                return pool10[n]
+            return pool20[n//10] + ' '*(n%10 != 0) + pool10[n%10]
+
+        def three_digits_decode(n):
+            '''
+            decoding numbers within one thousand
+            '''
+            if n < 100:
+                return two_digits_decode(n)
+            elif n % 100 == 0:
+                return pool10[n//100] + ' Hundred'
+            else:
+                return pool10[n//100] + ' Hundred ' + two_digits_decode(n%100)
+
+        if num == 0:
+            return 'Zero'
+        pool1000 = ['', ' Thousand', ' Million', ' Billion']
+        pool20 = ['', '', 'Twenty', 'Thirty', 'Forty', 'Fifty', 'Sixty','Seventy', 'Eighty', 'Ninety']
+        pool10 = ['', 'One', 'Two', 'Three', 'Four', 'Five', 'Six', 'Seven', 'Eight', 'Nine', 'Ten', 'Eleven', 'Twelve',
+                  'Thirteen', 'Fourteen','Fifteen','Sixteen', 'Seventeen', 'Eighteen', 'Nineteen']
+        thou_idx = 0
+        res = []
+        while num > 0:
+            curr_num = three_digits_decode(num % 1000)
+            if curr_num:
+                res.append(curr_num + pool1000[thou_idx])
+            thou_idx += 1
+            num = num //1000
+        # print(res)
+        return ' '.join(res[::-1])
+
+

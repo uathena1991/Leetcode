@@ -1,4 +1,25 @@
 """
+1d dp
+"""
+class Solution:
+    def uniquePathsWithObstacles(self, obstacleGrid: List[List[int]]) -> int:
+        m, n = len(obstacleGrid), len(obstacleGrid[0])
+        dp = [0 for _ in range(m)]
+        dp[0] = 1
+        for c in range(n):
+            new_dp = [0 for _ in range(m)]
+            new_dp[0] = dp[0] if obstacleGrid[0][c] != 1 else 0
+            for r in range(1, m):
+                if obstacleGrid[r][c] == 1:
+                    new_dp[r] = 0
+                else:
+                    new_dp[r] = dp[r] + new_dp[r-1]
+            dp = new_dp
+        return dp[-1]
+
+
+
+"""
 with obstacle
 """
 class Solution:

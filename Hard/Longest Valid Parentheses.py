@@ -1,37 +1,23 @@
-"""
-1. put index of '(' in a stack
-2. record each index of ')', if stack is empty, new_start
-3. Note: curr_length
-Test cases: "()(()", "(()"
-"""
-class Solution(object):
-    def longestValidParentheses(self, s):
-        """
-        :type s: str
-        :rtype: int
-        """
-        len_list = 0
-        idx = 0
-        tmp_list = []
-        tmp_start = -1
-        while idx < len(s):
-            if s[idx] == '(':
-                tmp_list.append(idx)
-                idx += 1
-            else:
-                if not tmp_list:
-                    tmp_start = idx
-                else:
-                    tmp_list.pop()
-                    if not tmp_list:
-                        len_list = max(len_list,idx-tmp_start)
-                    else:
-                        len_list = max(len_list,idx-tmp_list[-1])
-
-                idx += 1
-        return (len_list)
-
-
-        
-a = Solution()
-print a.longestValidParentheses("())()(())")
+class Solution:
+    def longestValidParentheses(self, s: str) -> int:
+        if not s:
+            return 0
+        left_locs = []
+        curr_start, res = 0, 0
+        for i,c in enumerate(s):
+            if c == '(':
+                left_locs.append(i)
+            else: # ')'
+                if not left_locs:
+                    curr_start = i + 1
+                    continue
+                left_locs.pop()
+                if not left_locs: # empty
+                    res = max(res, i - curr_start + 1)
+                else:  # not empty
+                    res = max(res, i - left_locs[-1])
+            
+        return res
+                    
+                    
+                

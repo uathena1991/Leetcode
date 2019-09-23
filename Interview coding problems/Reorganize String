@@ -1,0 +1,21 @@
+from collections import Counter
+import heapq as hq
+class Solution:
+    def reorganizeString(self, S: str) -> str:
+        cts = Counter(S)
+        cts_l = [(-cts[t], t) for t in cts]
+        hq.heapify(cts_l)
+        res = ''
+        if any([-t[0] > (len(S) + 1)/2 for t in cts_l]):
+            return ""
+
+        while len(cts_l) >= 2:
+            c1,s1 = hq.heappop(cts_l)
+            c2,s2 = hq.heappop(cts_l)
+            res += s1 + s2
+            if c1 + 1 < 0: hq.heappush(cts_l, (c1 + 1, s1))
+            if c2 + 1 < 0: hq.heappush(cts_l, (c2 + 1, s2))
+        while cts_l:
+            res += cts_l.pop()[1]
+        return res
+
