@@ -20,7 +20,7 @@ class Solution:
             self.res = max(self.res, left_l + right_l)
             return max(left_l, right_l)
 
-        
+
         self.res = 0
         helper(root)
         return self.res
