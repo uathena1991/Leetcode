@@ -1,5 +1,5 @@
 class Solution:
-    def permuteUnique(self, nums: List[int]) -> List[List[int]]:
+    def permute(self, nums: List[int]) -> List[List[int]]:
         def dfs(nums, path):
             if len(path) == len(nums):
                 res.append(path)
@@ -7,16 +7,13 @@ class Solution:
             for i in range(len(nums)):
                 if visited[i]:
                     continue
-                if i != 0 and nums[i] == nums[i-1] and not visited[i-1]:
-                    continue
                 visited[i] = True
                 dfs(nums, path + [nums[i]])
                 visited[i] = False
 
-
-
-        nums.sort()
-        visited = [False for _ in nums]
+		if not nums:
+			return [[]]
         res = []
+        visited = [False for _ in nums]
         dfs(nums, [])
         return res
